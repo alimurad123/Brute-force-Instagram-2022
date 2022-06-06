@@ -50,13 +50,13 @@ class InstaBrute(object):
     def __init__(self):
 
         try:
-            user = input('username : ')
-            Combo = input('passList : ')
+            user = input('_ali_murad8 : ')
+            Combo = input('pass.txt: ')
             self.CurrentProxy = ''
             self.UsedProxys = []
             UsePorxy = input('[*] Do you want to use proxy (y/n): ').upper()
             if (UsePorxy == 'Y' or UsePorxy == 'YES'):
-                self.randomProxy()
+                self.randomProxy(YES)
 
             print('\n----------------------------')
 
